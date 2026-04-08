@@ -69,6 +69,94 @@
                 "icon": "https://chatglm.cn/favicon.ico",
                 "rate": 4,
                 "id": 1054
+              },
+              {
+                "name": "讯飞星火",
+                "url": "https://xinghuo.xfyun.cn/",
+                "desc": "科大讯飞推出的认知大模型，多场景智能交互",
+                "icon": "https://xinghuo.xfyun.cn/favicon.ico",
+                "rate": 4,
+                "id": 1073
+              },
+              {
+                "name": "腾讯混元",
+                "url": "https://hunyuan.tencent.com/",
+                "desc": "腾讯全自研产业级大语言模型",
+                "icon": "https://hunyuan.tencent.com/favicon.ico",
+                "rate": 4,
+                "id": 1074
+              },
+              {
+                "name": "Perplexity",
+                "url": "https://www.perplexity.ai/",
+                "desc": "基于实时联网搜索的AI对话问答工具",
+                "icon": "https://www.perplexity.ai/favicon.ico",
+                "rate": 5,
+                "id": 1075
+              },
+              {
+                "name": "Gemini",
+                "url": "https://gemini.google.com/",
+                "desc": "Google推出的多模态AI大模型",
+                "icon": "https://gemini.google.com/favicon.ico",
+                "rate": 5,
+                "id": 1095
+              },
+              {
+                "name": "Grok",
+                "url": "https://x.ai/grok",
+                "desc": "xAI开发的实时信息感知AI助手",
+                "icon": "https://x.ai/favicon.ico",
+                "rate": 4,
+                "id": 1096
+              },
+              {
+                "name": "DeepSeek",
+                "url": "https://chat.deepseek.com/",
+                "desc": "深度求索推出的开源大模型，推理能力突出",
+                "icon": "https://deepseek.com/favicon.ico",
+                "rate": 5,
+                "id": 1097
+              },
+              {
+                "name": "元宝",
+                "url": "https://yuanbao.tencent.com/",
+                "desc": "腾讯基于混元大模型的AI助手App",
+                "icon": "https://yuanbao.tencent.com/favicon.ico",
+                "rate": 4,
+                "id": 1098
+              },
+              {
+                "name": "秘塔AI搜索",
+                "url": "https://metaso.cn/",
+                "desc": "基于大模型的新一代智能搜索引擎",
+                "icon": "https://metaso.cn/favicon.ico",
+                "rate": 5,
+                "id": 1099
+              },
+              {
+                "name": "Poe",
+                "url": "https://poe.com/",
+                "desc": "Quora推出的AI模型聚合平台，支持多种Bot",
+                "icon": "https://poe.com/favicon.ico",
+                "rate": 5,
+                "id": 1100
+              },
+              {
+                "name": "HuggingChat",
+                "url": "https://huggingface.co/chat",
+                "desc": "Hugging Face推出的开源模型聊天界面",
+                "icon": "https://huggingface.co/favicon.ico",
+                "rate": 4,
+                "id": 1101
+              },
+              {
+                "name": "You.com",
+                "url": "https://you.com/",
+                "desc": "AI驱动的隐私保护搜索引擎",
+                "icon": "https://you.com/favicon.ico",
+                "rate": 4,
+                "id": 1102
               }
             ]
           }
@@ -115,6 +203,157 @@
                 "icon": "https://www.liblib.art/favicon.ico",
                 "rate": 4,
                 "id": 1060
+              },
+              {
+                "name": "DALL·E 3",
+                "url": "https://openai.com/dall-e-3",
+                "desc": "OpenAI推出的文本生成图像模型",
+                "icon": "https://openai.com/favicon.ico",
+                "rate": 5,
+                "id": 1076
+              },
+              {
+                "name": "即梦AI",
+                "url": "https://www.jimengai.com/",
+                "desc": "国内易用的AI绘画生成平台",
+                "icon": "https://www.jimengai.com/favicon.ico",
+                "rate": 4,
+                "id": 1077
+              },
+              {
+                "name": "醒图AI",
+                "url": "https://api.xingtu-app.com/",
+                "desc": "美图旗下AI绘画与图片创作工具",
+                "icon": "https://xingtu-app.com/favicon.ico",
+                "rate": 4,
+                "id": 1078
+              },
+              {
+                "name": "通义万相",
+                "url": "https://tongyi.aliyun.com/wanxiang/",
+                "desc": "阿里云通义大模型系列的AI绘画创作平台",
+                "icon": "https://tongyi.aliyun.com/favicon.ico",
+                "rate": 4,
+                "id": 1103
+              },
+              {
+                "name": "文心一格",
+                "url": "https://yige.baidu.com/",
+                "desc": "百度推出的AI艺术创意辅助平台",
+                "icon": "https://yige.baidu.com/favicon.ico",
+                "rate": 4,
+                "id": 1104
+              },
+              {
+                "name": "可灵AI",
+                "url": "https://klingai.kuaishou.com/",
+                "desc": "快手推出的AI图片与视频生成平台",
+                "icon": "https://klingai.kuaishou.com/favicon.ico",
+                "rate": 5,
+                "id": 1105
+              },
+              {
+                "name": "Vega AI",
+                "url": "https://www.vegaai.net/",
+                "desc": "在线AI绘画与训练自定义模型的平台",
+                "icon": "https://www.vegaai.net/favicon.ico",
+                "rate": 4,
+                "id": 1106
+              },
+              {
+                "name": "Playground",
+                "url": "https://playground.com/",
+                "desc": "支持多种模型的AI图像生成与编辑平台",
+                "icon": "https://playground.com/favicon.ico",
+                "rate": 4,
+                "id": 1107
+              },
+              {
+                "name": "Ideogram",
+                "url": "https://ideogram.ai/",
+                "desc": "擅长生成带有精准文字的AI图像工具",
+                "icon": "https://ideogram.ai/favicon.ico",
+                "rate": 4,
+                "id": 1108
+              },
+              {
+                "name": "Adobe Firefly",
+                "url": "https://www.adobe.com/products/firefly.html",
+                "desc": "Adobe推出的创意生成式AI工具集",
+                "icon": "https://www.adobe.com/favicon.ico",
+                "rate": 5,
+                "id": 1109
+              },
+              {
+                "name": "Recraft",
+                "url": "https://www.recraft.ai/",
+                "desc": "专业矢量图形与插画AI生成工具",
+                "icon": "https://www.recraft.ai/favicon.ico",
+                "rate": 4,
+                "id": 1110
+              }
+            ]
+          },
+          {
+            "title": "设计辅助",
+            "icon": "fa-solid fa-pen-ruler",
+            "id": 1111,
+            "nav": [
+              {
+                "name": "Canva Magic Studio",
+                "url": "https://www.canva.com/magic/",
+                "desc": "Canva集成的全套AI设计工具",
+                "icon": "https://www.canva.com/favicon.ico",
+                "rate": 5,
+                "id": 1112
+              },
+              {
+                "name": "稿定AI",
+                "url": "https://www.gaoding.com/ai",
+                "desc": "稿定设计推出的AI设计工具集",
+                "icon": "https://www.gaoding.com/favicon.ico",
+                "rate": 4,
+                "id": 1113
+              },
+              {
+                "name": "MasterGo AI",
+                "url": "https://mastergo.com/ai",
+                "desc": "国内领先的AI产品设计与协作平台",
+                "icon": "https://mastergo.com/favicon.ico",
+                "rate": 4,
+                "id": 1114
+              },
+              {
+                "name": "Figma AI",
+                "url": "https://www.figma.com/ai",
+                "desc": "Figma原生集成的AI设计助手",
+                "icon": "https://www.figma.com/favicon.ico",
+                "rate": 5,
+                "id": 1115
+              },
+              {
+                "name": "Looka",
+                "url": "https://looka.com/",
+                "desc": "AI驱动的Logo设计与品牌识别生成",
+                "icon": "https://looka.com/favicon.ico",
+                "rate": 4,
+                "id": 1116
+              },
+              {
+                "name": "Uizard",
+                "url": "https://uizard.io/",
+                "desc": "AI生成UI设计稿与线框图工具",
+                "icon": "https://uizard.io/favicon.ico",
+                "rate": 4,
+                "id": 1117
+              },
+              {
+                "name": "即时AI",
+                "url": "https://js.design/ai",
+                "desc": "即时设计推出的AI生成UI设计工具",
+                "icon": "https://js.design/favicon.ico",
+                "rate": 4,
+                "id": 1118
               }
             ]
           }
@@ -161,6 +400,125 @@
                 "icon": "https://pika.art/favicon.ico",
                 "rate": 4,
                 "id": 1066
+              },
+              {
+                "name": "Kling",
+                "url": "https://klingai.kuaishou.com/",
+                "desc": "快手推出的AI视频生成大模型",
+                "icon": "https://klingai.kuaishou.com/favicon.ico",
+                "rate": 5,
+                "id": 1119
+              },
+              {
+                "name": "Luma Dream Machine",
+                "url": "https://lumalabs.ai/dream-machine",
+                "desc": "高质量快速生成的AI视频工具",
+                "icon": "https://lumalabs.ai/favicon.ico",
+                "rate": 5,
+                "id": 1120
+              },
+              {
+                "name": "HeyGen",
+                "url": "https://www.heygen.com/",
+                "desc": "AI数字人视频生成与翻译平台",
+                "icon": "https://www.heygen.com/favicon.ico",
+                "rate": 5,
+                "id": 1121
+              },
+              {
+                "name": "Sora",
+                "url": "https://openai.com/sora",
+                "desc": "OpenAI发布的文本生成视频模型",
+                "icon": "https://openai.com/favicon.ico",
+                "rate": 5,
+                "id": 1122
+              },
+              {
+                "name": "Stable Video",
+                "url": "https://www.stablevideo.com/",
+                "desc": "Stability AI推出的视频生成工具",
+                "icon": "https://www.stablevideo.com/favicon.ico",
+                "rate": 4,
+                "id": 1123
+              },
+              {
+                "name": "海螺AI",
+                "url": "https://hailuoai.com/",
+                "desc": "MiniMax推出的AI视频生成工具",
+                "icon": "https://hailuoai.com/favicon.ico",
+                "rate": 4,
+                "id": 1124
+              },
+              {
+                "name": "PixVerse",
+                "url": "https://pixverse.ai/",
+                "desc": "免费AI视频生成与编辑平台",
+                "icon": "https://pixverse.ai/favicon.ico",
+                "rate": 4,
+                "id": 1125
+              },
+              {
+                "name": "Vidu",
+                "url": "https://www.vidu.com/",
+                "desc": "生数科技推出的高一致性AI视频生成",
+                "icon": "https://www.vidu.com/favicon.ico",
+                "rate": 4,
+                "id": 1126
+              }
+            ]
+          },
+          {
+            "title": "AI配音与字幕",
+            "icon": "fa-solid fa-microphone-lines",
+            "id": 1079,
+            "nav": [
+              {
+                "name": "ElevenLabs",
+                "url": "https://elevenlabs.io/",
+                "desc": "超逼真AI语音合成与配音工具",
+                "icon": "https://elevenlabs.io/favicon.ico",
+                "rate": 5,
+                "id": 1080
+              },
+              {
+                "name": "剪映AI",
+                "url": "https://www.capcut.cn/",
+                "desc": "字节跳动旗下智能剪辑与AI配音工具",
+                "icon": "https://www.capcut.cn/favicon.ico",
+                "rate": 5,
+                "id": 1081
+              },
+              {
+                "name": "讯飞配音",
+                "url": "https://peiyin.xfyun.cn/",
+                "desc": "专业AI文字转语音工具",
+                "icon": "https://peiyin.xfyun.cn/favicon.ico",
+                "rate": 4,
+                "id": 1082
+              },
+              {
+                "name": "Descript",
+                "url": "https://www.descript.com/",
+                "desc": "AI驱动的音视频编辑与文字转录工具",
+                "icon": "https://www.descript.com/favicon.ico",
+                "rate": 5,
+                "id": 1127
+              },
+              {
+                "name": "Murf.ai",
+                "url": "https://murf.ai/",
+                "desc": "专业级AI配音与语音克隆平台",
+                "icon": "https://murf.ai/favicon.ico",
+                "rate": 4,
+                "id": 1128
+              },
+              {
+                "name": "魔音工坊",
+                "url": "https://www.moyin.com/",
+                "desc": "出门问问推出的专业AI配音平台",
+                "icon": "https://www.moyin.com/favicon.ico",
+                "rate": 4,
+                "id": 1129
               }
             ]
           }
@@ -207,6 +565,522 @@
                 "icon": "https://immersivetranslate.com/favicon.ico",
                 "rate": 5,
                 "id": 1072
+              },
+              {
+                "name": "WPS AI",
+                "url": "https://ai.wps.cn/",
+                "desc": "WPS集成AI能力，智能文档处理与创作",
+                "icon": "https://ai.wps.cn/favicon.ico",
+                "rate": 4,
+                "id": 1083
+              },
+              {
+                "name": "Cursor",
+                "url": "https://cursor.sh/",
+                "desc": "基于AI的智能代码编辑器",
+                "icon": "https://cursor.sh/favicon.ico",
+                "rate": 5,
+                "id": 1084
+              },
+              {
+                "name": "腾讯智影",
+                "url": "https://zenvideo.qq.com/",
+                "desc": "智能在线视频剪辑与数字人播报",
+                "icon": "https://zenvideo.qq.com/favicon.ico",
+                "rate": 4,
+                "id": 1085
+              },
+              {
+                "name": "飞书智能伙伴",
+                "url": "https://www.feishu.cn/product/ai",
+                "desc": "飞书集成的企业级AI助手",
+                "icon": "https://www.feishu.cn/favicon.ico",
+                "rate": 4,
+                "id": 1130
+              },
+              {
+                "name": "钉钉AI",
+                "url": "https://www.dingtalk.com/ai",
+                "desc": "钉钉平台的智能办公助理",
+                "icon": "https://www.dingtalk.com/favicon.ico",
+                "rate": 4,
+                "id": 1131
+              },
+              {
+                "name": "讯飞听见",
+                "url": "https://www.iflyrec.com/",
+                "desc": "科大讯飞推出的AI语音转文字与翻译",
+                "icon": "https://www.iflyrec.com/favicon.ico",
+                "rate": 4,
+                "id": 1132
+              },
+              {
+                "name": "Beautiful.ai",
+                "url": "https://www.beautiful.ai/",
+                "desc": "AI驱动的智能PPT设计工具",
+                "icon": "https://www.beautiful.ai/favicon.ico",
+                "rate": 4,
+                "id": 1133
+              },
+              {
+                "name": "Tome",
+                "url": "https://tome.app/",
+                "desc": "AI生成演示文稿与故事板",
+                "icon": "https://tome.app/favicon.ico",
+                "rate": 4,
+                "id": 1134
+              },
+              {
+                "name": "ChatPDF",
+                "url": "https://www.chatpdf.com/",
+                "desc": "与PDF文档对话的AI工具",
+                "icon": "https://www.chatpdf.com/favicon.ico",
+                "rate": 4,
+                "id": 1135
+              },
+              {
+                "name": "Jasper",
+                "url": "https://www.jasper.ai/",
+                "desc": "企业级AI写作与营销文案助手",
+                "icon": "https://www.jasper.ai/favicon.ico",
+                "rate": 4,
+                "id": 1136
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "AI教育学习",
+        "icon": "fa-solid fa-book-open-reader",
+        "id": 1086,
+        "nav": [
+          {
+            "title": "智能学习助手",
+            "icon": "fa-solid fa-graduation-cap",
+            "id": 1087,
+            "nav": [
+              {
+                "name": "Quizlet",
+                "url": "https://quizlet.com/",
+                "desc": "AI辅助学习、单词记忆与知识卡片",
+                "icon": "https://quizlet.com/favicon.ico",
+                "rate": 5,
+                "id": 1088
+              },
+              {
+                "name": "作业帮AI",
+                "url": "https://www.zuoyebang.com/",
+                "desc": "AI作业辅导与学习答疑工具",
+                "icon": "https://www.zuoyebang.com/favicon.ico",
+                "rate": 4,
+                "id": 1089
+              },
+              {
+                "name": "可汗学院AI",
+                "url": "https://www.khanacademy.org/",
+                "desc": "AI个性化教育辅导平台",
+                "icon": "https://www.khanacademy.org/favicon.ico",
+                "rate": 5,
+                "id": 1090
+              },
+              {
+                "name": "Socratic",
+                "url": "https://socratic.org/",
+                "desc": "Google推出的AI学习辅导应用",
+                "icon": "https://socratic.org/favicon.ico",
+                "rate": 4,
+                "id": 1137
+              },
+              {
+                "name": "Photomath",
+                "url": "https://photomath.com/",
+                "desc": "拍照解题与AI数学辅导",
+                "icon": "https://photomath.com/favicon.ico",
+                "rate": 5,
+                "id": 1138
+              },
+              {
+                "name": "CheggMate",
+                "url": "https://www.chegg.com/cheggmate/",
+                "desc": "Chegg基于GPT-4的学习助手",
+                "icon": "https://www.chegg.com/favicon.ico",
+                "rate": 4,
+                "id": 1139
+              },
+              {
+                "name": "猿辅导AI",
+                "url": "https://www.yuanfudao.com/",
+                "desc": "猿辅导推出的AI智能学习平台",
+                "icon": "https://www.yuanfudao.com/favicon.ico",
+                "rate": 4,
+                "id": 1140
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "AI代码与开发",
+        "icon": "fa-solid fa-code",
+        "id": 1091,
+        "nav": [
+          {
+            "title": "编程辅助",
+            "icon": "fa-solid fa-code-branch",
+            "id": 1092,
+            "nav": [
+              {
+                "name": "CodeGeeX",
+                "url": "https://codegeex.cn/",
+                "desc": "清华系AI代码生成与补全工具",
+                "icon": "https://codegeex.cn/favicon.ico",
+                "rate": 4,
+                "id": 1093
+              },
+              {
+                "name": "Tabnine",
+                "url": "https://www.tabnine.com/",
+                "desc": "AI智能代码补全助手",
+                "icon": "https://www.tabnine.com/favicon.ico",
+                "rate": 5,
+                "id": 1094
+              },
+              {
+                "name": "Replit Ghostwriter",
+                "url": "https://replit.com/ai",
+                "desc": "Replit集成的AI编程助手",
+                "icon": "https://replit.com/favicon.ico",
+                "rate": 4,
+                "id": 1141
+              },
+              {
+                "name": "Codeium",
+                "url": "https://codeium.com/",
+                "desc": "免费的AI代码补全与聊天工具",
+                "icon": "https://codeium.com/favicon.ico",
+                "rate": 5,
+                "id": 1142
+              },
+              {
+                "name": "Amazon CodeWhisperer",
+                "url": "https://aws.amazon.com/codewhisperer/",
+                "desc": "AWS推出的AI编程助手",
+                "icon": "https://aws.amazon.com/favicon.ico",
+                "rate": 4,
+                "id": 1143
+              },
+              {
+                "name": "Sourcegraph Cody",
+                "url": "https://sourcegraph.com/cody",
+                "desc": "企业级AI编程助手与代码搜索",
+                "icon": "https://sourcegraph.com/favicon.ico",
+                "rate": 4,
+                "id": 1144
+              },
+              {
+                "name": "v0.dev",
+                "url": "https://v0.dev/",
+                "desc": "Vercel推出的AI生成React组件工具",
+                "icon": "https://v0.dev/favicon.ico",
+                "rate": 5,
+                "id": 1145
+              },
+              {
+                "name": "bolt.new",
+                "url": "https://bolt.new/",
+                "desc": "AI全栈Web应用生成与部署平台",
+                "icon": "https://bolt.new/favicon.ico",
+                "rate": 5,
+                "id": 1146
+              },
+              {
+                "name": "Trae",
+                "url": "https://www.trae.ai/",
+                "desc": "字节跳动推出的AI编程IDE",
+                "icon": "https://www.trae.ai/favicon.ico",
+                "rate": 4,
+                "id": 1147
+              },
+              {
+                "name": "Windsurf",
+                "url": "https://www.codeium.com/windsurf",
+                "desc": "Codeium推出的AI协作式IDE",
+                "icon": "https://www.codeium.com/favicon.ico",
+                "rate": 4,
+                "id": 1148
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "AI写作与内容",
+        "icon": "fa-solid fa-pen-nib",
+        "id": 1149,
+        "nav": [
+          {
+            "title": "写作辅助",
+            "icon": "fa-solid fa-feather",
+            "id": 1150,
+            "nav": [
+              {
+                "name": "Copy.ai",
+                "url": "https://www.copy.ai/",
+                "desc": "营销文案与内容创作的AI助手",
+                "icon": "https://www.copy.ai/favicon.ico",
+                "rate": 4,
+                "id": 1151
+              },
+              {
+                "name": "Writesonic",
+                "url": "https://writesonic.com/",
+                "desc": "SEO优化与长文写作AI工具",
+                "icon": "https://writesonic.com/favicon.ico",
+                "rate": 4,
+                "id": 1152
+              },
+              {
+                "name": "Rytr",
+                "url": "https://rytr.me/",
+                "desc": "高性价比的AI写作助手",
+                "icon": "https://rytr.me/favicon.ico",
+                "rate": 4,
+                "id": 1153
+              },
+              {
+                "name": "秘塔写作猫",
+                "url": "https://www.xiezuocat.com/",
+                "desc": "中文AI写作与校对工具",
+                "icon": "https://www.xiezuocat.com/favicon.ico",
+                "rate": 4,
+                "id": 1154
+              },
+              {
+                "name": "笔灵AI",
+                "url": "https://ibiling.cn/",
+                "desc": "专业中文AI论文与公文写作",
+                "icon": "https://ibiling.cn/favicon.ico",
+                "rate": 4,
+                "id": 1155
+              },
+              {
+                "name": "字语智能",
+                "url": "https://getgetai.com/",
+                "desc": "AI公文写作与智能改写",
+                "icon": "https://getgetai.com/favicon.ico",
+                "rate": 4,
+                "id": 1156
+              }
+            ]
+          },
+          {
+            "title": "内容优化",
+            "icon": "fa-solid fa-wand-magic-sparkles",
+            "id": 1157,
+            "nav": [
+              {
+                "name": "Grammarly",
+                "url": "https://www.grammarly.com/",
+                "desc": "AI语法检查与写作增强工具",
+                "icon": "https://www.grammarly.com/favicon.ico",
+                "rate": 5,
+                "id": 1158
+              },
+              {
+                "name": "QuillBot",
+                "url": "https://quillbot.com/",
+                "desc": "AI改写、润色与总结工具",
+                "icon": "https://quillbot.com/favicon.ico",
+                "rate": 5,
+                "id": 1159
+              },
+              {
+                "name": "DeepL Write",
+                "url": "https://www.deepl.com/write",
+                "desc": "DeepL推出的AI写作助手",
+                "icon": "https://www.deepl.com/favicon.ico",
+                "rate": 4,
+                "id": 1160
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "AI模型与平台",
+        "icon": "fa-solid fa-layer-group",
+        "id": 1161,
+        "nav": [
+          {
+            "title": "模型平台",
+            "icon": "fa-solid fa-server",
+            "id": 1162,
+            "nav": [
+              {
+                "name": "Hugging Face",
+                "url": "https://huggingface.co/",
+                "desc": "最大的AI模型与数据集开源社区",
+                "icon": "https://huggingface.co/favicon.ico",
+                "rate": 5,
+                "id": 1163
+              },
+              {
+                "name": "Replicate",
+                "url": "https://replicate.com/",
+                "desc": "AI模型云端运行与API平台",
+                "icon": "https://replicate.com/favicon.ico",
+                "rate": 5,
+                "id": 1164
+              },
+              {
+                "name": "Together AI",
+                "url": "https://www.together.ai/",
+                "desc": "开源大模型推理与训练平台",
+                "icon": "https://www.together.ai/favicon.ico",
+                "rate": 4,
+                "id": 1165
+              },
+              {
+                "name": "Grog",
+                "url": "https://groq.com/",
+                "desc": "超高速AI模型推理API服务",
+                "icon": "https://groq.com/favicon.ico",
+                "rate": 5,
+                "id": 1166
+              },
+              {
+                "name": "Cohere",
+                "url": "https://cohere.com/",
+                "desc": "企业级NLP模型与API平台",
+                "icon": "https://cohere.com/favicon.ico",
+                "rate": 4,
+                "id": 1167
+              },
+              {
+                "name": "AI21 Labs",
+                "url": "https://studio.ai21.com/",
+                "desc": "Jurassic系列大模型平台",
+                "icon": "https://studio.ai21.com/favicon.ico",
+                "rate": 4,
+                "id": 1168
+              }
+            ]
+          },
+          {
+            "title": "AI Agent平台",
+            "icon": "fa-solid fa-robot",
+            "id": 1169,
+            "nav": [
+              {
+                "name": "Coze",
+                "url": "https://www.coze.com/",
+                "desc": "字节跳动推出的AI Bot开发平台",
+                "icon": "https://www.coze.com/favicon.ico",
+                "rate": 5,
+                "id": 1170
+              },
+              {
+                "name": "扣子",
+                "url": "https://www.coze.cn/",
+                "desc": "Coze国内版AI智能体开发平台",
+                "icon": "https://www.coze.cn/favicon.ico",
+                "rate": 5,
+                "id": 1171
+              },
+              {
+                "name": "Dify",
+                "url": "https://dify.ai/",
+                "desc": "开源LLM应用开发与Agent平台",
+                "icon": "https://dify.ai/favicon.ico",
+                "rate": 5,
+                "id": 1172
+              },
+              {
+                "name": "LangChain",
+                "url": "https://www.langchain.com/",
+                "desc": "构建LLM应用的开发框架",
+                "icon": "https://www.langchain.com/favicon.ico",
+                "rate": 5,
+                "id": 1173
+              },
+              {
+                "name": "AutoGPT",
+                "url": "https://autogpt.net/",
+                "desc": "自主AI Agent实验项目",
+                "icon": "https://autogpt.net/favicon.ico",
+                "rate": 4,
+                "id": 1174
+              },
+              {
+                "name": "Manus",
+                "url": "https://manus.im/",
+                "desc": "通用AI Agent自主任务执行平台",
+                "icon": "https://manus.im/favicon.ico",
+                "rate": 5,
+                "id": 1175
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "AI图像处理",
+        "icon": "fa-solid fa-photo-film",
+        "id": 1176,
+        "nav": [
+          {
+            "title": "图像编辑",
+            "icon": "fa-solid fa-wand-magic",
+            "id": 1177,
+            "nav": [
+              {
+                "name": "Remove.bg",
+                "url": "https://www.remove.bg/",
+                "desc": "AI自动抠图与背景移除",
+                "icon": "https://www.remove.bg/favicon.ico",
+                "rate": 5,
+                "id": 1178
+              },
+              {
+                "name": "Upscayl",
+                "url": "https://upscayl.org/",
+                "desc": "开源AI图像无损放大工具",
+                "icon": "https://upscayl.org/favicon.ico",
+                "rate": 5,
+                "id": 1179
+              },
+              {
+                "name": "BigJPG",
+                "url": "https://bigjpg.com/",
+                "desc": "AI动漫图片无损放大",
+                "icon": "https://bigjpg.com/favicon.ico",
+                "rate": 4,
+                "id": 1180
+              },
+              {
+                "name": "Cleanup.pictures",
+                "url": "https://cleanup.pictures/",
+                "desc": "AI智能擦除图片中的物体",
+                "icon": "https://cleanup.pictures/favicon.ico",
+                "rate": 4,
+                "id": 1181
+              },
+              {
+                "name": "PhotoRoom",
+                "url": "https://www.photoroom.com/",
+                "desc": "AI产品图与背景替换工具",
+                "icon": "https://www.photoroom.com/favicon.ico",
+                "rate": 4,
+                "id": 1182
+              },
+              {
+                "name": "Clipdrop",
+                "url": "https://clipdrop.co/",
+                "desc": "Stability AI推出的AI图像编辑工具集",
+                "icon": "https://clipdrop.co/favicon.ico",
+                "rate": 5,
+                "id": 1183
               }
             ]
           }
