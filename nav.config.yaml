@@ -10,10 +10,10 @@
 # 仓库地址，填写 Fork 后的仓库地址，支持 Gitee / GitHub / GitLab
 # 作者 Gitee 仓库地址 https://gitee.com/ling/nav
 # 作者 GitLab 仓库地址 https://gitlab.com/surpassling/nav?projectId=68880543, projectId 是项目 ID，可在仓库页面中找到
-gitRepoUrl: https://github.com/surpassling/nav
+gitRepoUrl: https://github.com/surpassling/BookMarkHub
 
 # Fork 部署分支
-branch: main
+branch: master
 
 # 默认Fork仓库
 # 仓库必须自己提前创建，如果打算长期使用本软件，建议每个人都创建一个新的仓库作为图片存储
