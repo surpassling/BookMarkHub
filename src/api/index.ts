@@ -193,7 +193,7 @@ export async function updateFileContent({
       })
   }
 
-  if (path === DB_PATH) {
+  if (path === DB_PATH()) {
     content = LZString.compressToBase64(content)
   }
   const commitMessage = `rebot(CI): ${message}`

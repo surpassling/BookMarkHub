@@ -4,7 +4,9 @@
 // See https://github.com/surpassling/nav
 import navConfig from '../../nav.config.json'
 
-export const DB_PATH = 'data/db.json'
+export const DB_PATH = () => {
+  return localStorage.getItem('isAiNav') === 'false' ? 'data/db.json' : 'data/ai_db.json'
+}
 
 export const TAG_PATH = 'data/tag.json'
 

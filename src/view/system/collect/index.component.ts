@@ -274,7 +274,7 @@ export default class CollectComponent {
         updateFileContent({
           message: 'update db',
           content: JSON.stringify(navs()),
-          path: DB_PATH,
+          path: DB_PATH(),
         })
           .then(() => {
             this.message.success($t('_syncSuccessTip'))

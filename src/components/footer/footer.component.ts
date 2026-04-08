@@ -3,7 +3,7 @@
 // Modified Copyright @ 2024-present [ling]. All rights reserved.
 // See https://github.com/surpassling/nav
 
-import { Component, Input, ChangeDetectionStrategy } from '@angular/core'
+import { Component, Input, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core'
 import { CommonModule } from '@angular/common'
 import { settings } from 'src/store'
 import { compilerTemplate } from 'src/utils/utils'
@@ -24,12 +24,23 @@ export class FooterComponent {
 
   footerContent: string = ''
 
-  constructor() {}
+  constructor(private cdr: ChangeDetectorRef) {}
 
   ngOnInit() {
+    this.updateContent()
+    
+    // Subscribe to nav data changes so the count updates dynamically
+    // when we switch between ai_db.json and db.json
+    event.on('navs_updated', () => {
+      this.updateContent()
+    })
+  }
+
+  updateContent() {
     this.footerContent = compilerTemplate(
       this.content || settings().footerContent,
     )
+    this.cdr.detectChanges()
   }
 
   ngOnDestroy() {

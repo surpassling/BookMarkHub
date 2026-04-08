@@ -76,6 +76,21 @@
   </div>
 
   <div
+    nz-tooltip
+    [nzTooltipTitle]="isAiNav() ? '关闭AI导航' : '开启AI导航'"
+    class="common-show wrapper dark-bg dark-border-color dark-action-hover"
+    (click)="toggleAiNav()"
+  >
+    <i
+      class="text-base"
+      [class.fa-solid]="true"
+      [class.fa-layer-group]="isAiNav()"
+      [class.fa-robot]="!isAiNav()"
+      [style.color]="isAiNav() ? '#007bff' : 'inherit'"
+    ></i>
+  </div>
+
+  <div
     *ngIf="settings.showLanguage"
     class="common-show wrapper dark-bg dark-border-color dark-action-hover"
     (click)="toggleLocale()"

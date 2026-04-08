@@ -4,7 +4,7 @@
 // See https://github.com/surpassling/nav
 
 import navConfig from '../../nav.config.json'
-import { internal } from 'src/store'
+import { internal, navs } from 'src/store'
 import { isLogin } from 'src/utils/user'
 import { CODE_SYMBOL } from 'src/constants/symbol'
 
@@ -16,10 +16,24 @@ interface TemplateData {
   year: number
 }
 
+function countTotalWebsites(list: any[]): number {
+  let count = 0;
+  for (const item of list) {
+    if (item.nav && Array.isArray(item.nav)) {
+      if (item.nav.length > 0 && !item.nav[0].nav) {
+        // We reached the websites level
+        count += item.nav.length;
+      } else {
+        count += countTotalWebsites(item.nav);
+      }
+    }
+  }
+  return count;
+}
+
 export function compilerTemplate(str: string): string {
-  const { loginViewCount, userViewCount } = internal()
   const data: TemplateData = {
-    total: isLogin ? loginViewCount : userViewCount,
+    total: countTotalWebsites(navs()),
     hostname: window.location.hostname,
     year: new Date().getFullYear(),
   }

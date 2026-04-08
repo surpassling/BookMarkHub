@@ -1,0 +1,217 @@
+[
+  {
+    "title": "AI 智能工具",
+    "icon": "fa-solid fa-robot",
+    "id": 1045,
+    "nav": [
+      {
+        "title": "对话模型",
+        "icon": "fa-solid fa-comments",
+        "id": 1046,
+        "nav": [
+          {
+            "title": "大语言模型",
+            "icon": "fa-solid fa-brain",
+            "id": 1047,
+            "nav": [
+              {
+                "name": "ChatGPT",
+                "url": "https://chat.openai.com/",
+                "desc": "OpenAI 强大的聊天对话大模型",
+                "icon": "https://chat.openai.com/favicon.ico",
+                "rate": 5,
+                "id": 1048
+              },
+              {
+                "name": "Claude",
+                "url": "https://claude.ai/",
+                "desc": "Anthropic 开发的强大 AI 助手，以长文本和安全性著称",
+                "icon": "https://claude.ai/favicon.ico",
+                "rate": 5,
+                "id": 1049
+              },
+              {
+                "name": "Kimi 智能助手",
+                "url": "https://kimi.moonshot.cn/",
+                "desc": "月之暗面科技推出的长文本 AI 助手",
+                "icon": "https://kimi.moonshot.cn/favicon.ico",
+                "rate": 5,
+                "id": 1050
+              },
+              {
+                "name": "文心一言",
+                "url": "https://yiyan.baidu.com/",
+                "desc": "百度推出的人工智能语言模型",
+                "icon": "https://yiyan.baidu.com/favicon.ico",
+                "rate": 4,
+                "id": 1051
+              },
+              {
+                "name": "通义千问",
+                "url": "https://tongyi.aliyun.com/",
+                "desc": "阿里云推出的大模型",
+                "icon": "https://tongyi.aliyun.com/favicon.ico",
+                "rate": 4,
+                "id": 1052
+              },
+              {
+                "name": "豆包",
+                "url": "https://www.doubao.com/",
+                "desc": "字节跳动推出的免费 AI 对话助手",
+                "icon": "https://www.doubao.com/favicon.ico",
+                "rate": 4,
+                "id": 1053
+              },
+              {
+                "name": "智谱清言",
+                "url": "https://chatglm.cn/",
+                "desc": "智谱AI推出的千亿参数大模型对话助手",
+                "icon": "https://chatglm.cn/favicon.ico",
+                "rate": 4,
+                "id": 1054
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "绘画与设计",
+        "icon": "fa-solid fa-palette",
+        "id": 1055,
+        "nav": [
+          {
+            "title": "AI生图",
+            "icon": "fa-solid fa-image",
+            "id": 1056,
+            "nav": [
+              {
+                "name": "Midjourney",
+                "url": "https://www.midjourney.com/",
+                "desc": "目前全球效果最好的 AI 绘画工具之一",
+                "icon": "https://www.midjourney.com/favicon.ico",
+                "rate": 5,
+                "id": 1057
+              },
+              {
+                "name": "Leonardo.Ai",
+                "url": "https://leonardo.ai/",
+                "desc": "生成游戏素材、概念艺术的高质量 AI 绘画平台",
+                "icon": "https://leonardo.ai/favicon.ico",
+                "rate": 5,
+                "id": 1058
+              },
+              {
+                "name": "Stable Diffusion",
+                "url": "https://stability.ai/",
+                "desc": "开源且强大的 AI 绘画生态",
+                "icon": "https://stability.ai/favicon.ico",
+                "rate": 5,
+                "id": 1059
+              },
+              {
+                "name": "LiblibAI",
+                "url": "https://www.liblib.art/",
+                "desc": "国内领先的 AI 绘画原创模型网站",
+                "icon": "https://www.liblib.art/favicon.ico",
+                "rate": 4,
+                "id": 1060
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "音视频创作",
+        "icon": "fa-solid fa-video",
+        "id": 1061,
+        "nav": [
+          {
+            "title": "AI生成音视频",
+            "icon": "fa-solid fa-film",
+            "id": 1062,
+            "nav": [
+              {
+                "name": "Runway",
+                "url": "https://runwayml.com/",
+                "desc": "新一代人工智能视频生成工具",
+                "icon": "https://runwayml.com/favicon.ico",
+                "rate": 5,
+                "id": 1063
+              },
+              {
+                "name": "Suno",
+                "url": "https://suno.com/",
+                "desc": "一键生成包含人声的高质量原创音乐",
+                "icon": "https://suno.com/favicon.ico",
+                "rate": 5,
+                "id": 1064
+              },
+              {
+                "name": "Udio",
+                "url": "https://www.udio.com/",
+                "desc": "逼真高质量的音乐生成平台",
+                "icon": "https://www.udio.com/favicon.ico",
+                "rate": 5,
+                "id": 1065
+              },
+              {
+                "name": "Pika",
+                "url": "https://pika.art/",
+                "desc": "创新的 AI 视频生成平台",
+                "icon": "https://pika.art/favicon.ico",
+                "rate": 4,
+                "id": 1066
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "办公与效率",
+        "icon": "fa-solid fa-briefcase",
+        "id": 1067,
+        "nav": [
+          {
+            "title": "AI生产力",
+            "icon": "fa-solid fa-laptop-code",
+            "id": 1068,
+            "nav": [
+              {
+                "name": "Notion AI",
+                "url": "https://www.notion.so/product/ai",
+                "desc": "将 AI 深度集成到笔记与文档中的效率神器",
+                "icon": "https://www.notion.so/images/favicon.ico",
+                "rate": 5,
+                "id": 1069
+              },
+              {
+                "name": "Gamma",
+                "url": "https://gamma.app/",
+                "desc": "用 AI 一键生成精美 PPT、网页和文档",
+                "icon": "https://gamma.app/favicon.ico",
+                "rate": 5,
+                "id": 1070
+              },
+              {
+                "name": "GitHub Copilot",
+                "url": "https://github.com/features/copilot",
+                "desc": "程序员的最佳 AI 编程助手",
+                "icon": "https://github.githubassets.com/favicons/favicon.svg",
+                "rate": 5,
+                "id": 1071
+              },
+              {
+                "name": "沉浸式翻译",
+                "url": "https://immersivetranslate.com/",
+                "desc": "广受好评的双语对照网页翻译插件",
+                "icon": "https://immersivetranslate.com/favicon.ico",
+                "rate": 5,
+                "id": 1072
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -10,7 +10,7 @@ import { NzModalService } from 'ng-zorro-antd/modal'
 import { NzMessageService } from 'ng-zorro-antd/message'
 import { isLogin } from 'src/utils/user'
 import { updateFileContent } from 'src/api'
-import { navs, settings } from 'src/store'
+import { navs, settings, isAiNav, toggleAiNav } from 'src/store'
 import { DB_PATH, STORAGE_KEY_MAP } from 'src/constants'
 import { Router } from '@angular/router'
 import { $t, getLocale } from 'src/locale'
@@ -45,6 +45,7 @@ export class FixbarComponent {
   private scrollSubscription: Subscription | null = null
   readonly isSelfDevelop = isSelfDevelop
   readonly isPwaMode = isPwaMode() && window.__PWA_ENABLE__
+  readonly isAiNav = isAiNav
   isDark: boolean = isDarkFn()
   isShowFace = true
   isShowTop = false
@@ -189,6 +190,10 @@ export class FixbarComponent {
     } else {
       removeDark()
     }
+  }
+
+  toggleAiNav() {
+    toggleAiNav()
   }
 
   goSystemPage() {

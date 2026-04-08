@@ -282,7 +282,7 @@ export default class WebpComponent {
           await updateFileContent({
             message: 'import db',
             content: JSON.stringify(data.db),
-            path: DB_PATH,
+            path: DB_PATH(),
             refresh: false,
           })
           that.notification.success('OK', 'DB import successful')
