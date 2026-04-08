@@ -1,0 +1,69 @@
+<div
+  *ngIf="!src; else checkFontAwesome"
+  class="circle common-icon"
+  [ngStyle]="{
+    width: size === 0 ? '' : size + 'px',
+    height: size === 0 ? '' : size + 'px',
+    minWidth: size + 'px',
+    minHeight: size + 'px',
+    borderRadius: radius + 'px',
+    background: backgroundColor
+  }"
+>
+  {{ firstLetter }}
+</div>
+
+<ng-template #checkFontAwesome>
+  <div *ngIf="isFontAwesome(); else img"
+    class="fa-icon-container common-icon flex-center"
+    [ngStyle]="{
+      width: size === 0 ? '' : size + 'px',
+      height: size === 0 ? '' : size + 'px',
+      minWidth: size + 'px',
+      minHeight: size + 'px',
+      borderRadius: radius + 'px',
+      background: backgroundColor,
+      color: '#fff',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      fontSize: (size * 0.55) + 'px'
+    }"
+  >
+    <i [class]="src"></i>
+  </div>
+</ng-template>
+
+<ng-template #img>
+  <img
+    *ngIf="!isError"
+    [src]="src"
+    class="icon common-icon"
+    [ngStyle]="{
+      width: size === 0 ? '' : size + 'px',
+      height: size === 0 ? '' : size + 'px',
+      minWidth: size + 'px',
+      minHeight: size + 'px',
+      borderRadius: radius + 'px'
+    }"
+    draggable="false"
+    loading="lazy"
+    [alt]="firstLetter"
+    (error)="onError()"
+  />
+
+  <div
+    *ngIf="isError"
+    class="circle common-icon"
+    [ngStyle]="{
+      width: size === 0 ? '' : size + 'px',
+      height: size === 0 ? '' : size + 'px',
+      minWidth: size + 'px',
+      minHeight: size + 'px',
+      borderRadius: radius + 'px',
+      background: backgroundColor
+    }"
+  >
+    {{ firstLetter }}
+  </div>
+</ng-template>

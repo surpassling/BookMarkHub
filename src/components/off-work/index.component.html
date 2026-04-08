@@ -1,0 +1,21 @@
+<div
+  class="offwork family citems"
+  [class.rest]="isRest"
+  [style.zoom]="component['zoom']"
+>
+  <div class="title">
+    {{ isRest ? data['restTitle'] : data['workTitle'] }}
+  </div>
+  <div class="coutdown" *ngIf="!isRest">{{ countdownStr }}</div>
+  <img
+    *ngIf="isRest; else other"
+    src=""
+    class="img"
+  />
+  <ng-template #other>
+    <img
+      src=""
+      class="img"
+    />
+  </ng-template>
+</div>
