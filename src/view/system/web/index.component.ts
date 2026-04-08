@@ -627,7 +627,7 @@ export default class WebpComponent {
         updateFileContent({
           message: 'update db',
           content: JSON.stringify(cleanWebAttrs(this.navs())),
-          path: DB_PATH,
+          path: DB_PATH(),
         })
           .then(() => {
             this.message.success($t('_syncSuccessTip'))

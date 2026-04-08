@@ -235,7 +235,7 @@ export class FixbarComponent {
         await updateFileContent({
           message: 'update db',
           content: JSON.stringify(cleanWebAttrs(navs())),
-          path: DB_PATH,
+          path: DB_PATH(),
         })
         this.message.success($t('_syncSuccessTip'))
       },

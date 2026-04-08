@@ -74,7 +74,7 @@ export function setNavs(navs: INavProps[]): Promise<any> {
   if (isSelfDevelop) {
     return updateFileContent({
       content: JSON.stringify(navs),
-      path: DB_PATH,
+      path: DB_PATH(),
     })
   }
   return localforage.setItem(STORAGE_KEY_MAP.WEBSITE, navs)
