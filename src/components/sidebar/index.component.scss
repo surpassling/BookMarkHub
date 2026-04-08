@@ -117,6 +117,10 @@
       margin-left: 8px;
       vertical-align: middle;
     }
+    .logo-img {
+      border-radius: 50%;
+      object-fit: cover;
+    }
   }
   .sider {
     height: 100%;

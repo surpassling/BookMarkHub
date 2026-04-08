@@ -33,20 +33,28 @@
   >
     <ng-content *ngIf="logoImage; else noLogo">
       <img
-        [src]="commonService.settings().favicon"
+        src="icons/icon-512x512.png"
         class="logo-img"
         *ngIf="isCollapsed; else noCollased"
+        (error)="onLogoError($event)"
       />
       <ng-template #noCollased>
-        <img class="pointer-events-none" [src]="logoImage" />
+        <img
+          class="pointer-events-none"
+          src="icons/icon-512x512.png"
+          (error)="onLogoError($event)"
+        />
       </ng-template>
+      <span class="web-title" *ngIf="!isCollapsed">快速导航</span>
     </ng-content>
 
     <ng-template #noLogo>
-      <img [src]="commonService.settings().favicon" class="logo-img" />
-      <span class="web-title" *ngIf="!isCollapsed">{{
-        commonService.settings().sideTitle || commonService.title()
-      }}</span>
+      <img
+        src="icons/icon-512x512.png"
+        class="logo-img"
+        (error)="onLogoError($event)"
+      />
+      <span class="web-title" *ngIf="!isCollapsed">快速导航</span>
     </ng-template>
   </div>
 

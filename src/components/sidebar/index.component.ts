@@ -67,6 +67,22 @@ export class SidebarComponent {
           this.commonService.settings().darkLogo
   }
 
+  onLogoError(e: Event) {
+    const img = e.target as HTMLImageElement
+    if (!img) return
+    const tried = img.getAttribute('data-fallback') || ''
+    if (tried === '') {
+      img.setAttribute('data-fallback', 'logo')
+      img.src = 'logo.png'
+      return
+    }
+    if (tried === 'logo') {
+      img.setAttribute('data-fallback', 'assets')
+      img.src = 'assets/logo.png'
+      return
+    }
+  }
+
   openMenu(item: INavProps) {
     this.menuOpenId = item.id
   }
