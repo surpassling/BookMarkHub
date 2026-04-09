@@ -118,7 +118,7 @@ export class SearchComponent {
     if (this.searchTimeout) {
       clearTimeout(this.searchTimeout);
     }
-    
+
     this.searchTimeout = setTimeout(() => {
       const { id, ...params } = queryString()
       this.router.navigate([], {

@@ -266,7 +266,7 @@
   position: relative;
   display: block;
   width: 100%;
-  
+
   &:hover {
     transform: translateY(-6px);
     box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.3);
@@ -276,7 +276,7 @@
     display: block;
     height: 100%;
     position: relative;
-    
+
     .xe-user-img {
       float: left;
       display: block;
@@ -284,34 +284,34 @@
       height: 100%;
       display: flex;
       align-items: center;
-      
+
       .img-circle {
         border-radius: 50%;
       }
     }
-    
+
     .xe-comment {
       transform: translateY(-50%);
       position: absolute;
       margin-left: 50px;
       top: 50%;
       width: calc(100% - 50px);
-      
+
       .xe-user-name {
         display: block;
         color: #2c2e2f;
         font-size: 14px;
         margin-bottom: 2px;
-        
+
         strong {
           font-weight: 600;
         }
-        
+
         &.dark-white {
           // color is overridden by .dark-white in dark mode
         }
       }
-      
+
       p {
         margin-bottom: 0px;
         margin-right: 15px;
@@ -329,7 +329,7 @@
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
   }
-  
+
   .overflowClip_2 {
     overflow: hidden;
     text-overflow: ellipsis;

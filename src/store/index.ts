@@ -64,7 +64,7 @@ export function toggleAiNav() {
   localStorage.setItem('isAiNav', String(nextValue))
   navs.set(isSelfDevelop ? [] : (nextValue ? aiDbJson : dbJson) as INavProps[])
   event.emit('navs_updated', {})
-  
+
   // Also force a reload to make sure all components get the new data properly
   setTimeout(() => {
     window.location.href = window.location.pathname

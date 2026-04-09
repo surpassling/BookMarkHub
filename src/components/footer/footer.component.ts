@@ -28,7 +28,7 @@ export class FooterComponent {
 
   ngOnInit() {
     this.updateContent()
-    
+
     // Subscribe to nav data changes so the count updates dynamically
     // when we switch between ai_db.json and db.json
     event.on('navs_updated', () => {
