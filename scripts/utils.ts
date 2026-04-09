@@ -299,18 +299,19 @@ export function writeSEO(navs: INavProps[], payload: SEOPayload): string {
   const { settings } = payload
   const nowDate = dayjs.tz().format('YYYY-MM-DD HH:mm:ss')
   let seoTemplate = `
-<div data-url="https://github.com/surpassling/nav" data-server-time="${Date.now()}" data-a="x.i.e-jiahe" data-date="${nowDate}" id="META-NAV" style="display:none;">
+<div data-url="https://github.com/surpassling/nav" data-server-time="${Date.now()}" data-a="x.i.e-jiahe" data-date="${nowDate}" id="META-NAV" style="z-index:-1;position:fixed;top:-10000vh;left:-10000vh;">
 `
 
   if (settings.openSEO) {
+    let contentList: string[] = []
     dfsNavs({
       navs,
       webCallback: (web: IWebProps) => {
-        seoTemplate += `<div>${web.name}</div>${
-          web.desc ? `<p>${web.desc}</p>` : ''
-        }`
+        contentList.push(web.name)
+        if (web.desc) contentList.push(web.desc)
       },
     })
+    seoTemplate += contentList.join(' | ')
   }
 
   seoTemplate += '</div>'

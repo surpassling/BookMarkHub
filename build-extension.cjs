@@ -50,6 +50,9 @@ indexHtml = indexHtml.replace(/<base href="">/g, '');
 indexHtml = indexHtml.replace(/<link rel="stylesheet" href="([^"]+)" media="print" onload="this\.media='all'">/g, '<link rel="stylesheet" href="$1">');
 indexHtml = indexHtml.replace(/<noscript><link rel="stylesheet" href="([^"]+)"><\/noscript>/g, '');
 
+// Completely remove the SEO block from extension since it's local and doesn't need indexing
+indexHtml = indexHtml.replace(/<div data-url="https:\/\/github\.com\/surpassling\/nav"[\s\S]*?id="META-NAV"[\s\S]*?<\/div>/i, '');
+
 let inlineScriptContent = '';
 const scriptRegex = /<script>([\s\S]*?)<\/script>/gi;
 let match;
