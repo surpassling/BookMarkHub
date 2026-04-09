@@ -10,8 +10,26 @@
     width: 650px;
     max-width: 95%;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 6px;
     overflow: hidden;
+
+    ::ng-deep .ant-input-group-addon {
+      border-top-left-radius: 6px !important;
+      border-bottom-left-radius: 6px !important;
+    }
+    ::ng-deep .ant-input-affix-wrapper,
+    ::ng-deep .ant-input {
+      border-top-right-radius: 6px !important;
+      border-bottom-right-radius: 6px !important;
+    }
+
+    &.removeAddon {
+      ::ng-deep .ant-input-affix-wrapper,
+      ::ng-deep .ant-input {
+        border-top-left-radius: 6px !important;
+        border-bottom-left-radius: 6px !important;
+      }
+    }
 
     input {
       padding-left: 10px;
@@ -78,8 +96,9 @@
       background-color: transparent !important;
       border-color: rgba(255, 255, 255, 0.4) !important;
     }
-
-    ::ng-deep .ant-input {
+    
+    ::ng-deep .ant-input,
+    ::ng-deep .ant-input-affix-wrapper {
       background-color: transparent !important;
       border-color: rgba(255, 255, 255, 0.4) !important;
     }
