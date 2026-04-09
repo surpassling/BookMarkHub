@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const srcDir = path.join(__dirname, 'dist', 'browser');
+const srcDir = path.join(__dirname, 'dist-extension', 'browser');
 const extDir = path.join(__dirname, 'extension');
 
 function copyDir(src, dest) {

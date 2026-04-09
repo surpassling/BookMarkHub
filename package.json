@@ -12,6 +12,7 @@
     "init": "tsx ./scripts/start.ts",
     "setup": "npm run init && tsx ./scripts/build.ts",
     "build-gh-pages": "npm run setup && ng build --base-href ./ --index src/index.html",
+    "build-ext": "npm run setup && ng run nav:build-extension --base-href ./ --index src/index.html && node build-extension.cjs",
     "build": "npm run setup && ng build --index src/index.html",
     "watch": "ng build --watch --configuration development",
     "update": "git pull && (git remote add upstream https://gitee.com/ling/nav.git || true) && git fetch upstream main && git merge upstream/main --allow-unrelated-histories --no-edit && git push",

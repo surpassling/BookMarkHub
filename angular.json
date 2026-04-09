@@ -79,8 +79,56 @@
           },
           "defaultConfiguration": "development"
         },
-        "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n"
+        "build-extension": {
+          "builder": "@angular-devkit/build-angular:application",
+          "options": {
+            "allowedCommonJsDependencies": [
+              "axios",
+              "qs",
+              "nprogress",
+              "file-saver",
+              "localforage",
+              "dayjs",
+              "lz-string"
+            ],
+            "outputPath": "dist-extension",
+            "index": "src/main.html",
+            "browser": "src/main.ts",
+            "polyfills": ["zone.js"],
+            "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "public"
+              }
+            ],
+            "styles": ["src/styles.scss"],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "5mb",
+                  "maximumError": "500mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "10kb",
+                  "maximumError": "10kb"
+                }
+              ],
+              "outputHashing": "none",
+              "namedChunks": false,
+              "optimization": true,
+              "aot": true,
+              "buildOptimizer": true
+            }
+          },
+          "defaultConfiguration": "production"
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
