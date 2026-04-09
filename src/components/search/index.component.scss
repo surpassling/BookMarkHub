@@ -44,44 +44,44 @@
 
 :host-context(.dark-container) {
   .input-wrapper {
-    background-color: transparent !important;
+    background-color: #fff !important;
     border: none !important;
 
     input {
-      color: #fff !important;
+      color: #333 !important;
       &::placeholder,
       &::-webkit-input-placeholder,
       &::-moz-placeholder,
       &:-ms-input-placeholder {
-        color: rgba(255, 255, 255, 0.7) !important;
+        color: #999 !important;
       }
     }
 
     .search-icon {
-      color: #fff !important;
+      color: #666 !important;
       opacity: 0.8;
     }
 
     .left-icon {
-      filter: drop-shadow(0 0 1px rgba(255,255,255,0.8));
+      filter: none;
     }
 
     ::ng-deep .ant-select-selection-item {
-      color: #fff !important;
+      color: #333 !important;
     }
     
     ::ng-deep .ant-select-arrow {
-      color: rgba(255, 255, 255, 0.7) !important;
+      color: #999 !important;
     }
 
     ::ng-deep .ant-input-group-addon {
-      background-color: transparent !important;
-      border-color: rgba(255, 255, 255, 0.4) !important;
+      background-color: #fff !important;
+      border-color: #eee !important;
     }
     
     ::ng-deep .ant-input {
       background-color: transparent !important;
-      border-color: rgba(255, 255, 255, 0.4) !important;
+      border-color: transparent !important;
     }
   }
 }
