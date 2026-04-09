@@ -10,35 +10,8 @@
     width: 650px;
     max-width: 95%;
     background: #fff;
-    border-radius: 8px;
+    border-radius: 20px;
     overflow: hidden;
-
-    ::ng-deep .ant-input-group-wrapper {
-      border: 1px solid #d9d9d9;
-      border-radius: 8px;
-      overflow: hidden;
-      transition: all 0.3s;
-      
-      &:hover, &:focus-within {
-        border-color: #40a9ff;
-        box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
-      }
-      
-      .ant-input-wrapper {
-        display: flex;
-      }
-      
-      .ant-input-group-addon {
-        border: none;
-        border-right: 1px solid #f0f0f0;
-        background: transparent;
-      }
-      
-      .ant-input {
-        border: none;
-        box-shadow: none !important;
-      }
-    }
 
     input {
       padding-left: 10px;
@@ -71,52 +44,46 @@
 
 :host-context(.dark-container) {
   .input-wrapper {
-    background-color: transparent !important;
-
-    ::ng-deep .ant-input-group-wrapper {
-      border: 1px solid rgba(255, 255, 255, 0.4) !important;
-      background-color: transparent !important;
-      
-      &:hover, &:focus-within {
-        border-color: rgba(255, 255, 255, 0.8) !important;
-        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
-      }
-      
-      .ant-input-group-addon {
-        background-color: transparent !important;
-        border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
-      }
-      
-      .ant-input {
-        background-color: transparent !important;
-      }
-    }
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 
     input {
-      color: #fff !important;
+      color: #333 !important;
       &::placeholder,
       &::-webkit-input-placeholder,
       &::-moz-placeholder,
       &:-ms-input-placeholder {
-        color: rgba(255, 255, 255, 0.7) !important;
+        color: #888 !important;
       }
     }
 
     .search-icon {
-      color: #fff !important;
+      color: #333 !important;
       opacity: 0.8;
     }
 
     .left-icon {
-      filter: drop-shadow(0 0 1px rgba(255,255,255,0.8));
+      filter: none;
     }
 
     ::ng-deep .ant-select-selection-item {
-      color: #fff !important;
+      color: #333 !important;
     }
-    
+
     ::ng-deep .ant-select-arrow {
-      color: rgba(255, 255, 255, 0.7) !important;
+      color: #888 !important;
+    }
+
+    ::ng-deep .ant-input-group-addon {
+      background-color: transparent !important;
+      border-color: rgba(0, 0, 0, 0.1) !important;
+    }
+
+    ::ng-deep .ant-input {
+      background-color: transparent !important;
+      border-color: rgba(0, 0, 0, 0.1) !important;
     }
   }
 }
