@@ -62,6 +62,14 @@
 
     <ng-template #suffixIcon>
       <i
+        *ngIf="keyword"
+        class="search-icon dark-text"
+        style="font-size: 14px; opacity: 0.6; margin-right: 8px;"
+        (click)="clearKeyword($event)"
+      >
+        <nz-icon nzType="close-circle" nzTheme="fill" />
+      </i>
+      <i
         class="search-icon iconfont iconsousuo dark-text"
         (click)="triggerSearch()"
       ></i>

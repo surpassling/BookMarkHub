@@ -20,6 +20,7 @@ import { $t } from 'src/locale'
 import { NzInputModule } from 'ng-zorro-antd/input'
 import { NzPopoverModule } from 'ng-zorro-antd/popover'
 import { NzSelectModule } from 'ng-zorro-antd/select'
+import { NzIconModule } from 'ng-zorro-antd/icon'
 import { LogoComponent } from 'src/components/logo/logo.component'
 import { isLogin } from 'src/utils/user'
 import event from 'src/utils/mitt'
@@ -33,6 +34,7 @@ import event from 'src/utils/mitt'
     NzPopoverModule,
     LogoComponent,
     NzSelectModule,
+    NzIconModule,
   ],
   selector: 'app-search',
   templateUrl: './index.component.html',
@@ -139,5 +141,12 @@ export class SearchComponent {
     if (event.code === 'Enter') {
       this.triggerSearch()
     }
+  }
+
+  clearKeyword(event: Event) {
+    event.stopPropagation()
+    this.keyword = ''
+    this.triggerSearch()
+    this.inputFocus()
   }
 }
