@@ -42,6 +42,50 @@
   }
 }
 
+:host-context(.dark-container) {
+  .input-wrapper {
+    background-color: #21262d !important;
+    border: 1px solid #484f58 !important;
+
+    input {
+      color: #fff !important;
+      &::placeholder,
+      &::-webkit-input-placeholder,
+      &::-moz-placeholder,
+      &:-ms-input-placeholder {
+        color: rgba(255, 255, 255, 0.7) !important;
+      }
+    }
+
+    .search-icon {
+      color: #fff !important;
+      opacity: 0.8;
+    }
+
+    .left-icon {
+      filter: drop-shadow(0 0 1px rgba(255,255,255,0.8));
+    }
+
+    ::ng-deep .ant-select-selection-item {
+      color: #fff !important;
+    }
+    
+    ::ng-deep .ant-select-arrow {
+      color: rgba(255, 255, 255, 0.7) !important;
+    }
+
+    ::ng-deep .ant-input-group-addon {
+      background-color: #21262d !important;
+      border-color: #484f58 !important;
+    }
+    
+    ::ng-deep .ant-input {
+      background-color: transparent !important;
+      border-color: transparent !important;
+    }
+  }
+}
+
 ::ng-deep.engine-main {
   border-radius: 5px;
   display: flex;
