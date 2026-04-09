@@ -306,6 +306,10 @@
         strong {
           font-weight: 600;
         }
+        
+        &.dark-white {
+          // color is overridden by .dark-white in dark mode
+        }
       }
       
       p {
